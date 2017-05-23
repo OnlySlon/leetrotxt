@@ -21,7 +21,7 @@ if (isset($_GET['f']))
 
 echo "<PRE>";
 $int = new LeetroTXT();
-$int->imageSet("./test.png", 1920, 1070);
+//$int->imageSet("./test.png", 1920, 1070);
 $int->LoadTXT($path);
 $int->Draw();
 

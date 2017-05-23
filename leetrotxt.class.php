@@ -351,7 +351,7 @@ class LeetroTXT
 		$this->im->drawImage($this->draw); 
 		$this->im->borderImage(new ImagickPixel('black'), 1, 1); 
 		$this->im->setImageFormat('png'); 
-		$this->im->writeImage("./test.png"); 
+		$this->im->writeImage($this->out_filename); 
 	}
 
 }
